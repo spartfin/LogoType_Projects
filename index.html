@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Description" content="Рыбалка, всё для рыбалки, удилища, катушки, леска, крючки, поплавки">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>Главная страница LOGOtype</title>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="visually-hidden">LOGOtype</h1>
+    <div class="header__top_wrap">
+      <div class="header__top">
+        <ul class="header__services">
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Оплата</a></li>
+          <li><a href="#">Возврат</a></li>
+          <li><a href="#">Оптовым покупателям</a></li>
+        </ul>
+        <div class="header__phone">
+          <p>бесплатно по России</p>
+          <a href="tel:8(800)0000000">8-800-000-00-00</a>
+        </div>
+      </div>
+    </div>
+    <div class="header__bottom">
+      <a class="header__logo" href="#">LOGOtype</a>
+      <form action="#" class="header__form" method="get">
+        <input id="search-field" name="search" placeholder="Что Вы ищете?" required="" type="search">
+        <label aria-label="Поиск по сайту" class="header__form_label" for="search-field"></label>
+        <button class="header__form_btn" type="submit"><span class="visually-hidden">Найти</span></button>
+      </form>
+      <button class="header__enter" type="button"><span class="visually-hidden">Авторизация на сайте</span></button>
+      <a class="header__favoriter" href="#"><span class="visually-hidden">Избранное</span><sup>3</sup></a>
+      <a class="header__basket" href="#"><span class="visually-hidden">Корзина</span><sup>2</sup></a>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="navigation">
+      <h2 class="visually-hidden">Основная навигация по сайту</h2>
+      <div class="navigation__wrapper">
+        <div class="navigation__header">
+          <button class="navigation__catalog" type="button">Каталог товаров</button>
+          <nav class="navigation__main">
+            <ul class="navigation__list">
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Акции</a></li>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Блог</a></li>
+              <li><a href="#">Эксперты</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="navigation__bottom">
+        <nav class="navigation__products">
+          <ul class="navigation__products_list">
+            <li><a href="#">Катушки</a></li>
+            <li><a href="#">Удилища</a></li>
+            <li><a href="#">Приманки</a></li>
+            <li><a href="#">Воблеры</a></li>
+            <li><a href="#">Лески и шнуры</a></li>
+            <li><a href="#">Поплавки</a></li>
+            <li><a href="#">Крючки</a></li>
+            <li><a href="#">Аксессуары</a></li>
+            <li><a href="#">Одежда</a></li>
+            <li><a href="#">Снаряжение</a></li>
+            <li><a href="#">Электроника</a></li>
+            <li><a href="#">Зимняя рыбалка</a></li>
+            <li><a href="#">Другое</a></li>
+          </ul>
+        </nav>
+        <div class="navigation__content">
+          <div class="navigation_preview preview">
+            <ul class="preview__list">
+              <li class="preview__lis_item">
+                <h3>Специальные предложения</h3>
+                <p>катушка Adrenalin 7300 BC</p>
+                <span>5 600 р.</span>
+                <a href="#">Купить</a>
+                <img src="img/coil.png" width="333" height="426" alt="Катушка Adrenalin 7300 BC">
+              </li>
+            </ul>
+            <ul class="preview__slides">
+              <li class="preview__slide preview__slide_Active"></li>
+              <li class="preview__slide"></li>
+              <li class="preview__slide"></li>
+            </ul>
+          </div>
+          <ul class="navigation__preview-links">
+            <li class="navigation__preview-links_item">
+              <a href="#">
+                <h4>Новые приманки</h4>
+                <p>для подледной ловли</p>
+                <div class="navigation__rawbite">
+                  <img src="img/rawbite.png" width="160" height="171" alt="Новые приманки">
+                </div>
+              </a>
+            </li>
+            <li class="navigation__preview-links_item">
+              <a href="#" download="">
+                <h4>Скачайте каталог</h4>
+                <p>для оптовиков</p>
+                <div class="navigation__journal">
+                  <img src="img/journal.png" width="162" height="186" alt="Каталог">
+                </div>
+              </a>
+            </li>
+            <li class="navigation__preview-links_item">
+              <a href="#">
+                <h4>Эксперты отвечают</h4>
+                <p>на ваши вопросы</p>
+                <div class="navigation__pike-fisherman">
+                  <img src="img/pike-fisherman.png" width="262" height="224" alt="Рыбак с щукой">
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="hits">
+      <div class="hits__title">
+        <h2>Хиты продаж</h2>
+        <a href="#">Весь каталог</a>
+        <button class="hits__bth_back" type="button"><span class="visually-hidden">Кнопка влево</span></button>
+        <button class="hits__bth_next" type="button"><span class="visually-hidden">Кнопка вправо</span></button>
+      </div>
+      <ul class="hits__list">
+        <li class="hits__item">
+          <a class="hits__item_link" href="#">
+            <div class="hits__item_coil-small">
+              <img src="img/coil-small.png" width="263" height="269" alt="Катушка">
+            </div>
+            <h3>Бестселлер</h3>
+            <p>катушка Adrenalin 7300 BC</p>
+            <span>4 800 р.</span>
+          </a>
+        </li>
+        <li class="hits__item hits__item_rollenhalter">
+          <b class="hit">Хит</b>
+          <div class="hits__rollenhalter">
+            <img src="img/rollenhalter.png" width="200" height="220" alt="Удилище">
+          </div>
+          <div class="hits__stars">
+            <input id="rollenhalter-4" type="radio" name="reviewStars">
+            <label title="gorgeous" for="rollenhalter-4"></label>
+            <input id="rollenhalter-3" type="radio" name="reviewStars">
+            <label title="good" for="rollenhalter-3"></label>
+            <input id="rollenhalter-2" type="radio" name="reviewStars">
+            <label title="regular" for="rollenhalter-2"></label>
+            <input id="rollenhalter-1" type="radio" name="reviewStars">
+            <label title="poor" for="rollenhalter-1"></label>
+            <input id="rollenhalter-0" type="radio" name="reviewStars">
+            <label title="bad" for="rollenhalter-0"></label>
+          </div>
+          <p>Удилище</p>
+          <p>Matze Koch Rollen</p>
+          <span>13 490 р.</span>
+          <button type="button">В корзину</button>
+        </li>
+        <li class="hits__item hits__item_shad-jigging">
+          <b class="discount">Скидка</b>
+          <b class="hit">Хит</b>
+          <div class="hits__shad-jigging">
+            <img src="img/shad-jigging.png" width="200" height="220" alt="Приманка">
+          </div>
+          <div class="hits__stars">
+            <input id="shad-jigging-4" type="radio" name="reviewStars">
+            <label title="gorgeous" for="shad-jigging-4"></label>
+            <input id="shad-jigging-3" type="radio" name="reviewStars">
+            <label title="good" for="shad-jigging-3"></label>
+            <input id="shad-jigging-2" type="radio" name="reviewStars">
+            <label title="regular" for="shad-jigging-2"></label>
+            <input id="shad-jigging-1" type="radio" name="reviewStars">
+            <label title="poor" for="shad-jigging-1"></label>
+            <input id="shad-jigging-0" type="radio" name="reviewStars">
+            <label title="bad" for="shad-jigging-0"></label>
+          </div>
+          <p>Приманка</p>
+          <p>Matze Koch Rollen</p>
+          <span>3 240 р.<del>6200 р.</del></span>
+          <button type="button">В корзину</button>
+        </li>
+        <li class="hits__item">
+          <b class="hit">Хит</b>
+          <div class="hits__coil-hits">
+            <img src="img/coil-hits.png" width="200" height="220" alt="Катушка">
+          </div>
+          <div class="hits__stars">
+            <input id="coil-hits-4" type="radio" name="reviewStars">
+            <label title="gorgeous" for="coil-hits-4"></label>
+            <input id="coil-hits-3" type="radio" name="reviewStars">
+            <label title="good" for="coil-hits-3"></label>
+            <input id="coil-hits-2" type="radio" name="reviewStars">
+            <label title="regular" for="coil-hits-2"></label>
+            <input id="coil-hits-1" type="radio" name="reviewStars">
+            <label title="poor" for="coil-hits-1"></label>
+            <input id="coil-hits-0" type="radio" name="reviewStars">
+            <label title="bad" for="coil-hits-0"></label>
+          </div>
+          <p>Катушка</p>
+          <p>Matze Koch Rollen</p>
+          <span>5 600 р.</span>
+          <button type="button">В корзину</button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="new-items">
+      <div class="new-items__title">
+        <h2>новинки</h2>
+        <a href="#">Весь каталог</a>
+        <button class="new-items__bth_back" type="button"><span class="visually-hidden">Кнопка влево</span></button>
+        <button class="new-items__bth_next" type="button"><span class="visually-hidden">Кнопка вправо</span></button>
+      </div>
+      <ul class="new-items__list">
+        <li class="new-items__item">
+          <a class="new-items__item_link" href="#">
+            <div class="new-items__item_rod">
+              <img src="img/rod.png" width="263" height="449" alt="Удилище">
+            </div>
+            <h3>Акция</h3>
+            <p>удилище Adrenalin 7300 BC</p>
+            <b>-30%</b>
+            <span>4 800 р.</span>
+          </a>
+        </li>
+        <li class="new-items__item">
+          <div class="new-items__rollenhalter-balzer-shika">
+            <img src="img/rollenhalter-balzer-shika.png" width="200" height="200" alt="Катушка">
+          </div>
+          <div class="new-items__stars">
+            <input id="rollenhalter-balzer-shika-4" type="radio" name="reviewStars">
+            <label title="gorgeous" for="rollenhalter-balzer-shika-4"></label>
+            <input id="rollenhalter-balzer-shika-3" type="radio" name="reviewStars">
+            <label title="good" for="rollenhalter-balzer-shika-3"></label>
+            <input id="rollenhalter-balzer-shika-2" type="radio" name="reviewStars">
+            <label title="regular" for="rollenhalter-balzer-shika-2"></label>
+            <input id="rollenhalter-balzer-shika-1" type="radio" name="reviewStars">
+            <label title="poor" for="rollenhalter-balzer-shika-1"></label>
+            <input id="rollenhalter-balzer-shika-0" type="radio" name="reviewStars">
+            <label title="bad" for="rollenhalter-balzer-shika-0"></label>
+          </div>
+          <p>Катушка</p>
+          <p>Matze Koch Rollen</p>
+          <span>13 490 р.</span>
+          <button type="button">В корзину</button>
+        </li>
+        <li class="new-items__item new-items__item_nettin">
+          <b class="discount">Скидка</b>
+          <div class="new-items__netting">
+            <img src="img/netting.png" width="240" height="118" alt="Подсачек">
+          </div>
+          <div class="new-items__stars">
+            <input id="netting-4" type="radio" name="reviewStars">
+            <label title="gorgeous" for="netting-4"></label>
+            <input id="netting-3" type="radio" name="reviewStars">
+            <label title="good" for="netting-3"></label>
+            <input id="netting-2" type="radio" name="reviewStars">
+            <label title="regular" for="netting-2"></label>
+            <input id="netting-1" type="radio" name="reviewStars">
+            <label title="poor" for="netting-1"></label>
+            <input id="netting-0" type="radio" name="reviewStars">
+            <label title="bad" for="netting-0"></label>
+          </div>
+          <p>Подсачек</p>
+          <p>Matze Koch Rollen</p>
+          <span>3 240 р.<del>6200 р.</del></span>
+          <button type="button">В корзину</button>
+        </li>
+        <li class="new-items__item">
+          <div class="new-items__fishing-bag">
+            <img src="img/fishing-bag.png" width="169" height="151" alt="Сумка рыболовная">
+          </div>
+          <div class="new-items__stars">
+            <input id="fishing-bag-4" type="radio" name="reviewStars">
+            <label title="gorgeous" for="fishing-bag-4"></label>
+            <input id="fishing-bag-3" type="radio" name="reviewStars">
+            <label title="good" for="fishing-bag-3"></label>
+            <input id="fishing-bag-2" type="radio" name="reviewStars">
+            <label title="regular" for="fishing-bag-2"></label>
+            <input id="fishing-bag-1" type="radio" name="reviewStars">
+            <label title="poor" for="fishing-bag-1"></label>
+            <input id="fishing-bag-0" type="radio" name="reviewStars">
+            <label title="bad" for="fishing-bag-0"></label>
+          </div>
+          <p>Сумка рыболовная</p>
+          <p>Matze Koch Rollen</p>
+          <span>5 600 р.</span>
+          <button type="button">В корзину</button>
+        </li>
+      </ul>
+    </section>
+
+    <section class="news">
+      <div class="news__title">
+        <h2>Последние новости</h2>
+        <a href="#">Все новости</a>
+        <button class="news__bth_back" type="button"><span class="visually-hidden">Кнопка влево</span></button>
+        <button class="news__bth_next" type="button"><span class="visually-hidden">Кнопка вправо</span></button>
+      </div>
+      <ul class="news__list">
+        <li class="news__item news__fisherman-news_1">
+          <span>13.02.2019</span>
+          <h3>Презентация нового продукта</h3>
+          <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+            осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных...</p>
+          <a href="#">Подробнее</a>
+        </li>
+        <li class="news__item news__fisherman-news_2">
+          <span>13.02.2019</span>
+          <h3>Презентация нового продукта</h3>
+          <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+            осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных...</p>
+          <a href="#">Подробнее</a>
+        </li>
+        <li class="news__item news__fisherman-news_3">
+          <span>13.02.2019</span>
+          <h3>Презентация нового продукта</h3>
+          <p>Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее
+            осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных...</p>
+          <a href="#">Подробнее</a>
+        </li>
+      </ul>
+      <h4>Подпишитесь на рассылку и будьте в курсе новостей, акций, новинок</h4>
+      <form action="#" class="news__form" method="POST">
+        <input id="email-field" name="email" placeholder="Ваш email" required="" type="email">
+        <label aria-label="Поиск по сайту" class="news__form_label" for="email-field"></label>
+        <button class="news__form_btn" type="submit">Подписаться</button>
+      </form>
+    </section>
+
+    <section class="company">
+      <ul class="company__discounts">
+        <li class="company__discounts_item">
+          <a href="#">
+            <h3>Скидка на&nbsp;все лески</h3>
+            <p>до 15 декабря</p>
+            <b>-30%</b>
+            <div class="company__fishing-linee">
+              <img src="img/fishing-line.png" width="172" height="297" alt="Леска">
+            </div>
+          </a>
+        </li>
+        <li class="company__discounts_item">
+          <a href="#">
+            <h3>Скидка на&nbsp;катушки</h3>
+            <p>до 31 января</p>
+            <b>-10%</b>
+            <div class="company__coil-discount">
+              <img src="img/coil-discount.png" width="203" height="274" alt="Катушка">
+            </div>
+          </a>
+        </li>
+      </ul>
+      <h2>о компании</h2>
+      <div class="company__description">
+        <p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей
+          недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит
+          любой макет непонятным смыслом и придаст неповторимый колорит советских времен</p>
+        <p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей
+          недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит
+          любой макет непонятным смыслом и придаст неповторимый колорит советских времен</p>
+        <p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей
+          недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит
+          любой макет непонятным смыслом и придаст неповторимый колорит советских времен</p>
+        <p>По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей
+          недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит
+          любой макет непонятным смыслом и придаст неповторимый колорит советских времен.
+          По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей
+          недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит
+          любой макет непонятным смыслом и придаст неповторимый колорит советских времен. По своей сути рыбатекст
+          является
+          альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать
+          рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и
+          придаст неповторимый колорит советских времен. По своей сути рыбатекст является альтернативой традиционному
+          lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от
+          lorem
+          ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит
+          советских времен</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__wrapper">
+        <div class="footer__logo">
+          <a href="#">LOGOtype</a>
+        </div>
+        <p>официальный представитель<br>в России</p>
+        <a href="#" download="">Скачать каталог 2020</a>
+        <a href="#">Связатья с нами</a>
+      </div>
+      <ul class="footer__navigation">
+        <li class="footer___item">
+          <h3>Компания</h3>
+          <ul class="footer___list">
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Акции</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Эксперты</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </li>
+        <li class="footer___item">
+          <h3>Покупателям</h3>
+          <ul class="footer___list">
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Оплата</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Возврат</a></li>
+            <li><a href="#">Помощь</a></li>
+          </ul>
+        </li>
+        <li class="footer___item">
+          <h3>Оптовикам</h3>
+          <ul class="footer___list">
+            <li><a class="footer___item_phone" href="tel:8(800)0000000">8 (800) 000-00-00</a></li>
+            <li><a class="footer___item_phone" href="tel:8(800)0000000">8 (800) 000-00-00</a></li>
+            <li><a class="footer___item_phone" href="tel:8(800)0000000">8 (800) 000-00-00</a></li>
+            <li><a class="footer___item_email" href="mailto:info@mail.ru">info@mail.ru</a></li>
+          </ul>
+        </li>
+        <li class="footer___item">
+          <h3>Контакты</h3>
+          <p>г. Москва, ул. Иванова<br>д. 5, пом. 8, оф. 11</p>
+          <ul class="footer___list">
+            <li><a class="footer___item_phone" href="tel:8(800)0000000">8 (800) 000-00-00</a></li>
+            <li><a class="footer___item_phone" href="tel:8(800)0000000">8-800-000-00-00</a></li>
+            <li><a class="footer___item_email" href="mailto:info@yandex.ru">info@yandex.ru</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__bottom">
+      <p>2010-2019 Ltd. Все права защищены.</p>
+      <ul class="footer__bottom_list">
+        <li>
+          <a href="#"><span class="visually-hidden">Мы в вконтакт</span>
+            <img src="img/vk-icon.png" alt="Вконтакте">
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="visually-hidden">Мы в фейсбуке</span>
+            <img src="img/facebook-icon.png" alt="Фейсбук">
+          </a>
+        </li>
+        <li>
+          <a href="#"><span class="visually-hidden">Мы в инстаграм</span>
+            <img src="img/instagram-icon.png" alt="Инстаграм">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
